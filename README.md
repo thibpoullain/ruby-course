@@ -1,1 +1,36 @@
-ruby-course
+Ruby
+======================
+
+Ce repository contient les specs des exercices sur la journée de cours sur Ruby
+
+Programme de la journee
+-----------------------
+
+Les exercices/specs d'ajourd'hui vous feront travailler sur le langage
+Ruby lui-meme, des bases a quelques elements de meta-programmation.
+
+Ordre des exercices
+-------------------
+
+* basic_spec.rb
+* so_class_spec.rb
+* modules_spec.rb
+* advanced_spec.rb
+
+Comment executer les specs ?
+----------------------------
+
+Prérequis : Avoir installé docker sur sa bécane.
+
+    docker-compose build
+    docker-compose run ruby /bin/ash
+
+Vous pouvez executer seulement un seul fichier de spec
+
+    host $ rspec spec/basic_spec.rb
+
+Ou encore seulement un seul example, en specifiant le fichier puis la
+ligne de l'exemple
+
+    host $ rspec spec/basic_spec.rb:77
+
