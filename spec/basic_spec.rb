@@ -42,6 +42,16 @@ describe 'Basics:' do
       .to raise_error(ArgumentError)
   end
 
+  # array_42 takes an array as parameter and returns:
+  # - true if there's a 42 in the array items
+  # - false otherwise
+  # Hint: Should be 2 lines (and can be one :)
+  # Hint: google ruby array each
+  it 'finds 42' do
+    expect(array_42([1, 2, 3, 4, 5, 6, 7 , 8, 9, 10])).to be_falsey
+    expect(array_42([1, 2, 3, 4, 5, 6, 7 , 8, 9, 42, 21, 10.5])).to be_truthy
+  end
+
   it 'computes Fibonacci sequence' do
     expect(fibonacci(1)).to eq(1)
     expect(fibonacci(2)).to eq(1)
@@ -72,6 +82,8 @@ describe 'Basics:' do
     expect(reverse_upcase_noLTA("qwertyuiopasdfghjkl;zxcvbn"))
       .to eq("NBVCXZ;KJHGFDSPOIUYREWQ")
   end
+
+
 
   # The magic_array function takes an array of number or an array of
   # array of number as parameter and return the same array :
