@@ -54,8 +54,10 @@ describe Advanced do
       expect(Advanced.respond_to_unexistent?(Array.new)).to be_falsey
       expect(Advanced.respond_to_keys?(Hash.new)).to be_truthy
       expect(Advanced.respond_to_unexistent?(Hash.new)).to be_falsey
-      expect { Advanced.unexistent?(Hash.new) }.to raise_error(NoMethodError)
-      expect { Advanced.respond_to_keys(Hash.new) }.to raise_error(NoMethodError)
+      expect { Advanced.unexistent?(Hash.new) }
+        .to raise_error(NoMethodError)
+      expect { Advanced.respond_to_keys(Hash.new) }
+        .to raise_error(NoMethodError)
     end
 
     # Hint: This is a one-liner
