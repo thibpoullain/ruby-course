@@ -9,6 +9,14 @@ Programme de la journee
 Les exercices/specs d'ajourd'hui vous feront travailler sur le langage
 Ruby lui-meme, des bases a quelques elements de meta-programmation.
 
+Extentions VScode conseillées pour Ruby
+------------------
+
+* [Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby)
+* [Endwise](https://marketplace.visualstudio.com/items?itemName=kaiwood.endwise)
+* [VSCode Ruby](https://github.com/rubyide/vscode-ruby)
+
+
 Ordre des exercices
 -------------------
 
