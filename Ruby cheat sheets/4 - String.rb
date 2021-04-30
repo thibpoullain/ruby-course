@@ -1,6 +1,6 @@
 # String interpolation
 name = 'Mike'
-message = "Hello #{name}" # Hello Mike
+message = "Hello #{name}"
 
 # get string number of characters
 'This is a string'.length  # 16
@@ -49,11 +49,3 @@ message = "Hello #{name}" # Hello Mike
 
 # get console keyboard input
 input = gets
-
-# get input and chomp last char (ex. new line)
-input = gets.chomp
-
-# get command-line arguments (ex. ruby main.rb arg1 arg2)
-puts ARGV  # ['arg1', 'arg2']
-
-ARGV.each { |option| puts option }

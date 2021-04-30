@@ -6,6 +6,7 @@ first_name = 'Mike'
 def display_customer
   # some code
 end
+# symbols
 :light_red
 
 #Screaming Snake Case for Constants
@@ -15,6 +16,7 @@ API_KEY = '123ABC'
 class ProductManager
   # some code
 end
+
 module CustomerSupport
   # some code
 end

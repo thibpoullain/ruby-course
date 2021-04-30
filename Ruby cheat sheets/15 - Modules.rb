@@ -41,12 +41,12 @@ puts Contact::Person::ACCESS_KEY
 
 #Module or class private method
 module Display
-...
-def initialize
-  greeting
-end
+  def initialize
+    greeting
+  end
 
-private
+  private
+
   def greeting
     puts 'hello'
   end

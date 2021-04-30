@@ -6,6 +6,14 @@ end
 # object instantiation
 product = Product.new
 
+
+# class declaration
+class Product
+  @instance_variable
+  @@class_variable
+end
+
+
 # class declaration with constructor and instance variables
 class Product
   def initialize(name, price, active)
@@ -42,9 +50,7 @@ puts product.price  # 1599
 class Product
   ...
   def price_with_tax
-    # reference to @price directly is not recommended
-    self.price + (self.price * tax_percent / 100)
-    # self keyword is optional
+    @price + (@price * tax_percent / 100)
   end
 end
 ...

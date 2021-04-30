@@ -1,5 +1,7 @@
-# string
-full_name = 'Mike Taylor'
+# string with simple quote
+full_name = 'Ragnar Lothbrok'
+# double quote for code injection ONLY ! Ask more performance.
+say_my_name = "Your name is #{full_name} my jarl"
 
 # integer
 count = 20
@@ -12,10 +14,10 @@ active = true
 admin_user? = false
 
 #Array
-fruits = ['Appel', 'Orange', 'Banana']
+weapon = ['Sword', 'Axe', 'Bow']
 
 #Hash
-fruit_color = { apple: 'red' }
+stuff = { head: 'Helmet', legs: 'pants' }
 
 #Array of hash
 customers = [
@@ -26,13 +28,13 @@ customers = [
 
 #Struct
 Person = Struct.new(:name, :age)
-person1  = Person.new 'mike', 50
-person2 = Person.new 'john', 35
+person1  = Person.new 'Ragnar', 34
+person2 = Person.new 'Loki', 35
 
 #Set to 'Default title' only if nil or false
 title = custom_title || 'Default title'
 
-# Assign if null
+# Assign if search is null only
 search ||= params[:search]
 
 #Safe navigation operator &. (skip if nil)

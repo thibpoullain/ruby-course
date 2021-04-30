@@ -1,6 +1,5 @@
 number.round 2.68  # 3
 number.floor 2.68  # 2
-number.ceil 2.68   # 3
 
 2.next  # 3
 

@@ -1,5 +1,6 @@
 # Raise exception and output error message
 raise "This is an exception"
+raise NameError, "This is an NameError exception"
 
 # Debut variable value
 raise products.inspect # [{:id=>10, :name=>"ipad pro"},{:id=>20, :name=>"Mac book pro"}]
