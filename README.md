@@ -25,6 +25,14 @@ Ordre des exercices
 * modules_spec.rb
 * advanced_spec.rb
 
+
+Resources
+-------------------
+
+- [Ruby](https://ruby-doc.org/core-3.0.0/)
+- [Rspec](https://relishapp.com/rspec)
+- [Rspec matcher](https://relishapp.com/rspec/rspec-expectations/v/3-10/docs/built-in-matchers)
+
 Comment executer les specs ?
 ----------------------------
 
