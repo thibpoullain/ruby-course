@@ -33,6 +33,17 @@ Resources
 - [Rspec](https://relishapp.com/rspec)
 - [Rspec matcher](https://relishapp.com/rspec/rspec-expectations/v/3-10/docs/built-in-matchers)
 
+
+Configuration optionelle
+----------------------------
+
+Créer les alias suivants dans vos .bashrc ou .zshrc
+
+    alias :dcb="docker-compose build"
+    alias :dcr="docker-compose run"
+    alias :dcu="docker-compose up"
+    alias :dcd="docker-compose down"
+
 Comment executer les specs ?
 ----------------------------
 

@@ -1,5 +1,5 @@
 require 'spec_helper'
-require_relative '../scripts/modules_spec'
+require_relative '../scripts/modules'
 
 describe Geometry do
   it 'has a VERSION constant' do
